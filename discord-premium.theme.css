@@ -1,0 +1,108 @@
+/*
+==UserCSS==
+@name	            discor theme
+@match            https://discord.com/*
+@version          1.0
+==/UserCSS==
+*/
+@import url(https://ac615223s5.github.io/discord-premium-theme/discord-premium-base.css);
+
+/*uncomment the one you want*/
+:root {
+  --custom-theme-background: linear-gradient(60deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%);
+  /*--custom-theme-background: linear-gradient(180deg, var(--bg-gradient-mint-apple-1) 6.15%, var(--bg-gradient-mint-apple-2) 48.7%, var(--bg-gradient-mint-apple-3) 93.07%);/**/
+  /*--custom-theme-background: linear-gradient(180deg, var(--bg-gradient-citrus-sherbert-1) 31.1%, var(--bg-gradient-citrus-sherbert-2) 67.09%);/**/
+  /*--custom-theme-background: linear-gradient(148.71deg, var(--bg-gradient-retro-raincloud-1) 5.64%, var(--bg-gradient-retro-raincloud-2) 26.38%, var(--bg-gradient-retro-raincloud-2) 49.92%, var(--bg-gradient-retro-raincloud-1) 73.12%);/**/
+  /*--custom-theme-background: linear-gradient(38.08deg, var(--bg-gradient-hanami-1) 3.56%, var(--bg-gradient-hanami-2) 35.49%, var(--bg-gradient-hanami-3) 68.78%);/**/
+  /*--custom-theme-background: linear-gradient(154.19deg, var(--bg-gradient-sunrise-1) 8.62%, var(--bg-gradient-sunrise-2) 48.07%, var(--bg-gradient-sunrise-3) 76.04%);/**/
+  /*--custom-theme-background: linear-gradient(180.14deg, var(--bg-gradient-cotton-candy-1) 8.5%, var(--bg-gradient-cotton-candy-2) 94.28%);/**/
+  /*--custom-theme-background: linear-gradient(179.52deg, var(--bg-gradient-lofi-vibes-1) 7.08%, var(--bg-gradient-lofi-vibes-2) 34.94%, var(--bg-gradient-lofi-vibes-3) 65.12%, var(--bg-gradient-lofi-vibes-4) 96.23%);/**/
+  /*--custom-theme-background: linear-gradient(38.99deg, var(--bg-gradient-desert-khaki-1) 12.92%, var(--bg-gradient-desert-khaki-2) 32.92%, var(--bg-gradient-desert-khaki-3) 52.11%);/**/
+  /*--custom-theme-background: linear-gradient(64.92deg, var(--bg-gradient-crimson-moon-1) 16.17%, var(--bg-gradient-crimson-moon-2) 72%);/**/
+  /*--custom-theme-background: linear-gradient(128.92deg, var(--bg-gradient-chroma-glow-1) 3.94%, var(--bg-gradient-chroma-glow-2) 26.1%, var(--bg-gradient-chroma-glow-3) 39.82%, var(--bg-gradient-chroma-glow-4) 56.89%, var(--bg-gradient-chroma-glow-5) 76.45%);/**/
+  /*--custom-theme-background: linear-gradient(141.68deg, var(--bg-gradient-sunset-1) 27.57%, var(--bg-gradient-sunset-2) 71.25%);/**/
+  /*--custom-theme-background: linear-gradient(180deg, var(--bg-gradient-dusk-1) 12.84%, var(--bg-gradient-dusk-2) 85.99%);/**/
+  /*--custom-theme-background: linear-gradient(170.82deg, var(--bg-gradient-mars-1) 14.61%, var(--bg-gradient-mars-2) 74.62%);/**/
+  /*--custom-theme-background: linear-gradient(48.17deg, var(--bg-gradient-midnight-blurple-1) 11.21%, var(--bg-gradient-midnight-blurple-2) 61.92%);/**/
+  /*--custom-theme-background: linear-gradient(162.27deg, var(--bg-gradient-forest-1) 11.2%, var(--bg-gradient-forest-2) 29.93%, var(--bg-gradient-forest-3) 48.64%, var(--bg-gradient-forest-4) 67.85%, var(--bg-gradient-forest-5) 83.54%);/**/
+  /*--custom-theme-background: linear-gradient(69.98deg, var(--bg-gradient-sepia-1) 14.14%, var(--bg-gradient-sepia-2) 60.35%);/**/
+  /*--custom-theme-background: linear-gradient(161.03deg, var(--bg-gradient-strawberry-lemonade-1) 18.79%, var(--bg-gradient-strawberry-lemonade-2) 49.76%, var(--bg-gradient-strawberry-lemonade-3) 80.72%);/**/
+  /*--custom-theme-background: linear-gradient(180deg, var(--bg-gradient-neon-nights-1) 0%, var(--bg-gradient-neon-nights-2) 50%, var(--bg-gradient-neon-nights-3) 100%);/**/
+  /*--custom-theme-background: linear-gradient(179.14deg, var(--bg-gradient-under-the-sea-1) 1.91%, var(--bg-gradient-under-the-sea-2) 48.99%, var(--bg-gradient-under-the-sea-3) 96.35%);/**/
+  /*--custom-theme-background: linear-gradient(148.71deg, var(--bg-gradient-retro-storm-1) 5.64%, var(--bg-gradient-retro-storm-2) 26.38%, var(--bg-gradient-retro-storm-2) 49.92%, var(--bg-gradient-retro-storm-1) 73.12%);/**/
+  /*--custom-theme-background: linear-gradient(239.16deg, var(--bg-gradient-aurora-1) 10.39%, var(--bg-gradient-aurora-2) 26.87%, var(--bg-gradient-aurora-3) 48.31%, var(--bg-gradient-aurora-4) 64.98%, var(--bg-gradient-aurora-5) 92.5%);/**/
+}
+.tutorialContainer_b06ae6 svg img {
+  /*content:url(https://discord.com/assets/015dd8c7a8111ad4e3b5.webp);/**/
+  /*content:url(https://discord.com/assets/022b56a46027cd8944a0.webp);/**/
+  /*content:url(https://discord.com/assets/8d8764191e7377ce6d1c.webp);/**/
+  /*content:url(https://discord.com/assets/4a39ebc7865c34cb05ca.webp);/**/
+  /*content:url(https://discord.com/assets/259c9e517e54b637bc8b.webp);/**/
+  /*content:url(https://discord.com/assets/536c4ee2800f76d480f2.webp);/**/
+  /*content:url(https://discord.com/assets/1ef51ba4b86ea4257b1e.webp);/**/
+  /*content:url(https://discord.com/assets/594e671c4337bdaa354d.webp);/**/
+  /*content:url(https://discord.com/assets/7f15142d4ff388f352cd.webp);/**/
+  /*content:url(https://discord.com/assets/1cc2c82a6058a7cc380c.webp);/**/
+  /*content:url(https://discord.com/assets/edc57c29789364e356a8.webp);/**/
+  /*content:url(https://discord.com/assets/cd734396523f0ccd8985.webp);/**/
+  /*content:url(https://discord.com/assets/2c98b86ce7d10c0ddeb3.webp);/**/
+  /*content:url(https://discord.com/assets/fd693e96180f96c3708b.webp);/**/
+  /*content:url(https://discord.com/assets/7509dcee3065c41654b1.webp);/**/
+  /*content:url(https://discord.com/assets/5e4012ec7d5cc0f2d584.webp);/**/
+  /*content:url(https://discord.com/assets/eca1ee6a7f84f537506b.webp);/**/
+  /*content:url(https://discord.com/assets/e8b3942d0a8f2667f170.webp);/**/
+  /*content:url(https://discord.com/assets/c24789d71a791a531bd7.webp);/**/
+  /*content:url(https://discord.com/assets/f5142ff9381de17c7591.webp);/**/
+}
+
+
+/* if you want to choose a different option for dark mode*/
+media (prefers-color-scheme: dark) {
+  :root {
+    --custom-theme-background: linear-gradient(60deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%);
+    /*--custom-theme-background: linear-gradient(180deg, var(--bg-gradient-mint-apple-1) 6.15%, var(--bg-gradient-mint-apple-2) 48.7%, var(--bg-gradient-mint-apple-3) 93.07%);/**/
+    /*--custom-theme-background: linear-gradient(180deg, var(--bg-gradient-citrus-sherbert-1) 31.1%, var(--bg-gradient-citrus-sherbert-2) 67.09%);/**/
+    /*--custom-theme-background: linear-gradient(148.71deg, var(--bg-gradient-retro-raincloud-1) 5.64%, var(--bg-gradient-retro-raincloud-2) 26.38%, var(--bg-gradient-retro-raincloud-2) 49.92%, var(--bg-gradient-retro-raincloud-1) 73.12%);/**/
+    /*--custom-theme-background: linear-gradient(38.08deg, var(--bg-gradient-hanami-1) 3.56%, var(--bg-gradient-hanami-2) 35.49%, var(--bg-gradient-hanami-3) 68.78%);/**/
+    /*--custom-theme-background: linear-gradient(154.19deg, var(--bg-gradient-sunrise-1) 8.62%, var(--bg-gradient-sunrise-2) 48.07%, var(--bg-gradient-sunrise-3) 76.04%);/**/
+    /*--custom-theme-background: linear-gradient(180.14deg, var(--bg-gradient-cotton-candy-1) 8.5%, var(--bg-gradient-cotton-candy-2) 94.28%);/**/
+    /*--custom-theme-background: linear-gradient(179.52deg, var(--bg-gradient-lofi-vibes-1) 7.08%, var(--bg-gradient-lofi-vibes-2) 34.94%, var(--bg-gradient-lofi-vibes-3) 65.12%, var(--bg-gradient-lofi-vibes-4) 96.23%);/**/
+    /*--custom-theme-background: linear-gradient(38.99deg, var(--bg-gradient-desert-khaki-1) 12.92%, var(--bg-gradient-desert-khaki-2) 32.92%, var(--bg-gradient-desert-khaki-3) 52.11%);/**/
+    /*--custom-theme-background: linear-gradient(64.92deg, var(--bg-gradient-crimson-moon-1) 16.17%, var(--bg-gradient-crimson-moon-2) 72%);/**/
+    /*--custom-theme-background: linear-gradient(128.92deg, var(--bg-gradient-chroma-glow-1) 3.94%, var(--bg-gradient-chroma-glow-2) 26.1%, var(--bg-gradient-chroma-glow-3) 39.82%, var(--bg-gradient-chroma-glow-4) 56.89%, var(--bg-gradient-chroma-glow-5) 76.45%);/**/
+    /*--custom-theme-background: linear-gradient(141.68deg, var(--bg-gradient-sunset-1) 27.57%, var(--bg-gradient-sunset-2) 71.25%);/**/
+    /*--custom-theme-background: linear-gradient(180deg, var(--bg-gradient-dusk-1) 12.84%, var(--bg-gradient-dusk-2) 85.99%);/**/
+    /*--custom-theme-background: linear-gradient(170.82deg, var(--bg-gradient-mars-1) 14.61%, var(--bg-gradient-mars-2) 74.62%);/**/
+    /*--custom-theme-background: linear-gradient(48.17deg, var(--bg-gradient-midnight-blurple-1) 11.21%, var(--bg-gradient-midnight-blurple-2) 61.92%);/**/
+    /*--custom-theme-background: linear-gradient(162.27deg, var(--bg-gradient-forest-1) 11.2%, var(--bg-gradient-forest-2) 29.93%, var(--bg-gradient-forest-3) 48.64%, var(--bg-gradient-forest-4) 67.85%, var(--bg-gradient-forest-5) 83.54%);/**/
+    /*--custom-theme-background: linear-gradient(69.98deg, var(--bg-gradient-sepia-1) 14.14%, var(--bg-gradient-sepia-2) 60.35%);/**/
+    /*--custom-theme-background: linear-gradient(161.03deg, var(--bg-gradient-strawberry-lemonade-1) 18.79%, var(--bg-gradient-strawberry-lemonade-2) 49.76%, var(--bg-gradient-strawberry-lemonade-3) 80.72%);/**/
+    /*--custom-theme-background: linear-gradient(180deg, var(--bg-gradient-neon-nights-1) 0%, var(--bg-gradient-neon-nights-2) 50%, var(--bg-gradient-neon-nights-3) 100%);/**/
+    /*--custom-theme-background: linear-gradient(179.14deg, var(--bg-gradient-under-the-sea-1) 1.91%, var(--bg-gradient-under-the-sea-2) 48.99%, var(--bg-gradient-under-the-sea-3) 96.35%);/**/
+    /*--custom-theme-background: linear-gradient(148.71deg, var(--bg-gradient-retro-storm-1) 5.64%, var(--bg-gradient-retro-storm-2) 26.38%, var(--bg-gradient-retro-storm-2) 49.92%, var(--bg-gradient-retro-storm-1) 73.12%);/**/
+    /*--custom-theme-background: linear-gradient(239.16deg, var(--bg-gradient-aurora-1) 10.39%, var(--bg-gradient-aurora-2) 26.87%, var(--bg-gradient-aurora-3) 48.31%, var(--bg-gradient-aurora-4) 64.98%, var(--bg-gradient-aurora-5) 92.5%);/**/
+  }
+  .tutorialContainer_b06ae6 svg img {
+    /*content:url(https://discord.com/assets/015dd8c7a8111ad4e3b5.webp);/**/
+    /*content:url(https://discord.com/assets/022b56a46027cd8944a0.webp);/**/
+    /*content:url(https://discord.com/assets/8d8764191e7377ce6d1c.webp);/**/
+    /*content:url(https://discord.com/assets/4a39ebc7865c34cb05ca.webp);/**/
+    /*content:url(https://discord.com/assets/259c9e517e54b637bc8b.webp);/**/
+    /*content:url(https://discord.com/assets/536c4ee2800f76d480f2.webp);/**/
+    /*content:url(https://discord.com/assets/1ef51ba4b86ea4257b1e.webp);/**/
+    /*content:url(https://discord.com/assets/594e671c4337bdaa354d.webp);/**/
+    /*content:url(https://discord.com/assets/7f15142d4ff388f352cd.webp);/**/
+    /*content:url(https://discord.com/assets/1cc2c82a6058a7cc380c.webp);/**/
+    /*content:url(https://discord.com/assets/edc57c29789364e356a8.webp);/**/
+    /*content:url(https://discord.com/assets/cd734396523f0ccd8985.webp);/**/
+    /*content:url(https://discord.com/assets/2c98b86ce7d10c0ddeb3.webp);/**/
+    /*content:url(https://discord.com/assets/fd693e96180f96c3708b.webp);/**/
+    /*content:url(https://discord.com/assets/7509dcee3065c41654b1.webp);/**/
+    /*content:url(https://discord.com/assets/5e4012ec7d5cc0f2d584.webp);/**/
+    /*content:url(https://discord.com/assets/eca1ee6a7f84f537506b.webp);/**/
+    /*content:url(https://discord.com/assets/e8b3942d0a8f2667f170.webp);/**/
+    /*content:url(https://discord.com/assets/c24789d71a791a531bd7.webp);/**/
+    /*content:url(https://discord.com/assets/f5142ff9381de17c7591.webp);/**/
+  }
+}
+
