@@ -1,4 +1,4 @@
-.theme-dark {
+html.theme-dark {
   --bg-overlay-color: 0 0 0;
   --bg-overlay-color-inverse: 255 255 255;
   --bg-overlay-opacity-1: 0.85;
@@ -25,7 +25,7 @@
   --theme-base-color-hsl: var(--theme-base-color-dark-hsl)
 }
 
-.theme-light {
+html.theme-light {
   --bg-overlay-color: 255 255 255;
   --bg-overlay-color-inverse: 0 0 0;
   --bg-overlay-opacity-1: 0.9;
