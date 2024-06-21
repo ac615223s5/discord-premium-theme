@@ -1,3 +1,7 @@
+:root{
+  --theme-base-color-amount:50%;
+  --theme-text-color-amount: 38%;
+}
 html.theme-dark {
   --bg-overlay-color: 0 0 0;
   --bg-overlay-color-inverse: 255 255 255;
