@@ -103,3 +103,7 @@ html {
       rgb(var(--bg-overlay-color) / var(--bg-overlay-opacity-app-frame))) fixed 0 0 / cover,
     var(--custom-theme-background) fixed 0 0 / cover
 }
+
+.scroller_fea3ef {
+  background: var(--bg-overlay-app-frame,var(--background-tertiary));
+}
